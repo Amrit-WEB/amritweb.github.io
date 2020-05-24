@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather || Real -Time Weather Update</title>
+    <link rel="icon" href="images/titlelogo.png" type="image/icon type" />
+
+    <script
+      src="https://kit.fontawesome.com/c40a62bd0d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <h2>Real-Time Weather</h2>
+
+      <div class="search-container">
+        <input
+          type="text"
+          placeholder="Search your City"
+          class="search-input"
+        />
+        <button class="btn"><i class="fas fa-search"></i></button>
+      </div>
+      <hr />
+      <div class="global">
+        <div class="part1">
+          <div class="current">
+            <h3 id="place"></h3>
+           <div id="temp"></div>
+           <div id="desc"></div>
+           <div id="humidity"></div>
+           <div id="wind"></div>
+          </div>
+          <div class="map">
+            <div class="city-container delhi"><i class="fas fa-location-arrow"></i>Delhi <b id="temp_delhi"></b></div>
+            <div class="city-container mumbai"><i class="fas fa-location-arrow"></i>Mumbai <b id="temp_mumbai"></b></div>
+            <div class="city-container chennai"><i class="fas fa-location-arrow"></i>Chennai <b id="temp_chennai"></b></div>
+            <div class="city-container kolkata"><i class="fas fa-location-arrow"></i>Kolkata <b id="temp_kolkata"></b></div>
+          </div>
+        </div>
+<hr>
+        <div class="part2">
+          <div class="fore-title">7 Days Forecasted Weather</div>
+          <div class="fore-body">
+            <div class="box1">
+              <div class="day1"></div>
+              <div class="temp_max1"></div>
+              <div class="temp_min1"></div>
+              <div class="desc1"></div>
+            </div>
+            <div class="box2">
+              <div class="day2"></div>
+              <div class="temp_max2"></div>
+              <div class="temp_min2"></div>
+              <div class="desc2"></div>
+            </div>
+            <div class="box3">
+              <div class="day3"></div>
+              <div class="temp_max3"></div>
+              <div class="temp_min3"></div>
+              <div class="desc3"></div>
+            </div>
+            <div class="box4">
+              <div class="day4"></div>
+              <div class="temp_max4"></div>
+              <div class="temp_min4"></div>
+              <div class="desc4"></div>
+            </div>
+            <div class="box5">
+              <div class="day5"></div>
+              <div class="temp_max5"></div>
+              <div class="temp_min5"></div>
+              <div class="desc5"></div>
+            </div>
+            <div class="box6">
+              <div class="day6"></div>
+              <div class="temp_max6"></div>
+              <div class="temp_min6"></div>
+              <div class="desc6"></div>
+            </div>
+            <div class="box7">
+              <div class="day7"></div>
+              <div class="temp_max7"></div>
+              <div class="temp_min7"></div>
+              <div class="desc7"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="create">
+      <i class="far fa-copyright"></i>
+      Created by Amritanshu
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

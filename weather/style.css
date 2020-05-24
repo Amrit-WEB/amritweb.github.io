@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&display=swap");
+
+body {
+  background-image: url(images/bg.jpg);
+  background-size: cover;
+}
+
+.main-container {
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 40px 40px;
+  padding-top: 15px;
+}
+
+h2 {
+  font-family: "Baloo Chettan 2", cursive;
+  size: 10px-;
+  color: aliceblue;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+  text-shadow: 2px 2px 10px white;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  box-shadow: 0 0 10px 1px white;
+  margin-top: 69px;
+}
+
+.search-container {
+  padding-left: 26%;
+  margin: 63px -30px;
+}
+.btn {
+  border-radius: 50%;
+  border-width: 0;
+  border-style: none;
+  height: 35px;
+  width: 35px;
+}
+
+.search-container button:hover {
+  color: tomato;
+  cursor: pointer;
+}
+
+.search-container button:active {
+  outline: 0;
+  outline-width: 0;
+}
+
+.search-input {
+  border-style: none;
+  border-radius: 2px;
+  height: 40px;
+  width: 60%;
+  padding: 2px 10px;
+}
+
+.part1 {
+  display: flex;
+  margin-top: 80px;
+}
+
+.current {
+  height: 341px;
+  width: 45%;
+  display: inline-block;
+  margin-left: 40px;
+  padding-top: 160px;
+}
+
+#place {
+  font-family: "Baloo Chettan 2", cursive;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  text-shadow: 2px 2px 10px #3cd7da;
+  font-size: xx-large;
+}
+
+#temp {
+  font-family: "Baloo Chettan 2", cursive;
+  font-size: 45px;
+  color: red;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 10px white;
+  margin-bottom: 30px;
+}
+#desc,
+#wind,
+#humidity {
+  font-family: "Baloo Chettan 2", cursive;
+  size: 10px-;
+  color: aliceblue;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 10px black;
+}
+
+.map {
+  height: 500px;
+  width: 45%;
+  box-shadow: 3px 4px 15px #a87e71;
+  border-radius: 270%;
+  display: inline-block;
+  margin-left: 40px;
+  background-image: url(images/map.jpg);
+  background-repeat: round;
+}
+
+.city-container {
+  height: 15px;
+  width: 65px;
+  font-family: "Baloo Chettan 2", cursive;
+  position: absolute;
+}
+
+.delhi {
+  margin: 167px 0px 0px 189px;
+}
+
+.mumbai {
+  margin: 299px 0px 0px 141px;
+}
+
+.chennai {
+  margin: 372px 0px 0px 240px;
+}
+
+.kolkata {
+  margin: 263px 0px 0px 342px;
+}
+
+#temp_delhi,
+#temp_mumbai,
+#temp_chennai,
+#temp_kolkata {
+  font-family: "Baloo Chettan 2", cursive;
+}
+
+.fa-location-arrow {
+  height: 2px;
+  width: 2px;
+  color: red;
+}
+
+.part2 {
+  padding-left: 60px;
+  margin-top: 50px;
+  display: none;
+}
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7 {
+  height: 135px;
+  width: 125px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 15px;
+  color: white;
+}
+
+.temp_max1,
+.temp_max2,
+.temp_max3,
+.temp_max4,
+.temp_max5,
+.temp_max6,
+.temp_max7 {
+  font-family: "Baloo Chettan 2", cursive;
+  font-size: 15px;
+  color: red;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 10px white;
+  margin-top: 10px;
+  margin-bottom: 1px;
+}
+
+.temp_min1,
+.temp_min2,
+.temp_min3,
+.temp_min4,
+.temp_min5,
+.temp_min6,
+.temp_min7 {
+  font-family: "Baloo Chettan 2", cursive;
+  font-size: 15px;
+  color: royalblue;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 10px white;
+}
+
+.desc1,
+.desc2,
+.desc3,
+.desc4,
+.desc5,
+.desc6,
+.desc7 {
+  font-family: "Baloo Chettan 2", cursive;
+  font-size: 10px;
+  color: aliceblue;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 10px black;
+  margin-top: 5px;
+}
+
+.day1,
+.day2,
+.day3,
+.day4,
+.day5,
+.day6,
+.day7 {
+  font-family: "Baloo Chettan 2", cursive;
+  size: 10px-;
+  color: aliceblue;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 10px black;
+  text-decoration: underline;
+}
+
+.fore-title {
+  font-family: "Baloo Chettan 2", cursive;
+  color: aliceblue;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 10px black;
+  padding-left: 17px;
+  text-decoration: underline;
+}
+
+.create {
+  padding-left: 86.3%;
+  padding-bottom: 1px;
+  color: white;
+}
