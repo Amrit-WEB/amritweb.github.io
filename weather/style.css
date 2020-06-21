@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&display=swap");
 
 body {
-  background-image: url(images/bg.jpg);
+  background-image: url(bg.jpg);
   background-size: cover;
 }
 
@@ -110,7 +110,7 @@ hr {
   border-radius: 270%;
   display: inline-block;
   margin-left: 40px;
-  background-image: url(images/map.jpg);
+  background-image: url(map.jpg);
   background-repeat: round;
 }
 
